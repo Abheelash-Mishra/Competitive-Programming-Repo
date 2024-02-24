@@ -1,4 +1,4 @@
-############ ---- Input Functions ---- ############
+################ ---- Input Functions ---- ################
 def inp():
     return(int(input()))
 def inlt():
@@ -8,6 +8,10 @@ def insr():
     return(list(s[:len(s) - 1]))
 def invr():
     return(map(int,input().split()))
+
+############ ---- End Of Input Functions ---- ############
+
+
 
 
 if __name__ == "__main__":
